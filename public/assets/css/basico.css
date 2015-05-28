@@ -1,0 +1,1011 @@
+/* Color de fondo del body (gris oscuro) */
+body{
+	background-color:#333333;
+}
+/************Inicio css del menú**************/
+/*********************************************/
+
+.texto-justificado{
+	text-align: justify;
+}
+
+/*color del fondo y tamaño de la fuente del menu (azul)*/	
+.navbar{
+	background-color: #27A9E1;
+	font-size: 1em;
+	border-bottom: none;
+}
+
+.main-menu-admin{
+	background-color: #333333;
+	font-size: 0.9em;
+	/*margin-bottom: 50px;*/
+}
+/* Color del icono menu desplegable (blanco)*/
+.icon-bar{
+	background: #ffffff;
+}
+
+div.row.menu-superior{
+	background-color: #ffffff;
+	color: #575C5F;
+}
+
+div.row.menu-inferior{
+	margin-top: -5px;
+}
+
+div.row.menu-inferior-admin{
+	/*margin-top: -5px;*/
+	background-color: #333333;
+}
+
+.boton-menu-registro,.boton-menu-ingreso{
+	
+	font-size: 0.9em;
+	height: 45px;
+	/*font-weight: bold;*/
+}
+.boton-menu-registro{
+	color: #27A9E1;
+	margin-right: 10px;
+	border: 1px #27A9E1 solid;
+}
+.boton-menu-ingreso{
+	color: #ffffff;
+	background-color: #BCD88F;
+}
+	.boton-menu-registro:hover, .boton-menu-ingreso:hover{
+		background-color: #27A9E1 !important;
+		color: #BCD88F;
+		font-weight: bold;
+		-webkit-transition: all 0.7s;
+	    -moz-transition: all 0.7s;
+	    -o-transition: all 0.7s;
+	    transition: all 0.7s;
+	}
+.boton-menu-crear{
+	color: #ffffff;
+	background-color: #5CB85C;
+}
+	
+	.boton-menu-crear:hover{
+		background-color: #F4A460 !important;
+		color: #ffffff;
+		font-weight: bold;
+		-webkit-transition: all 0.7s;
+	    -moz-transition: all 0.7s;
+	    -o-transition: all 0.7s;
+	    transition: all 0.7s;
+	}
+
+
+
+
+/* Color de los enlaces del menu -blanco-*/
+#main-menu a {
+	color: #ffffff;
+}
+	#main-menu a:hover {
+		/* Color de los enlaces del menu con hover -verde claro-*/
+	    color: 	#94d117;
+	    /* Color del borde inferior para los enlaces del menu -verde claro-*/
+	    border-bottom: solid 2px #94d117;
+	    /*border-top: solid 1px #94d117;*/
+
+	    -webkit-transition: all 0.7s;
+	    -moz-transition: all 0.7s;
+	    -o-transition: all 0.7s;
+	    transition: all 0.7s;
+	}
+
+	/*Quitar el background a los enlaces del menu*/
+	#main-menu>li.active>a,  
+	    #main-menu>li.active>a:hover,
+	    #main-menu>li.active>a:focus, 
+	    #main-menu>li>a:hover {
+	        background: none;
+	        cursor:pointer;
+	}
+
+	/* Backgroud del enlace que tiene el foco y asignar color al enlace -verde-*/
+	#main-menu>li>a:focus{
+		background: none;
+		color: #94d117;
+	}
+	#main-menu>li.active>a{
+	    color: 	#94d117;
+
+	}
+
+	/******Inicio css del menú interno desplegable**************/	
+	.dropdown-menu{
+		/*Color de fondo del submenu del boton desplegable, después de ingresar al sistema -azul claro-*/	
+		background-color: #27A9E1 ;
+	}
+
+		/*Color de fondo de los enlaces del submenu, después de ingresar al sistema -azul claro usado en submenu-*/	
+		.dropdown-menu>li.active>a, 
+			.dropdown-menu>li.active>a:hover, 
+			.dropdown-menu>li.active>a:focus,
+			.dropdown-menu>li>a:visited, 
+			.dropdown-menu>li>a:focus, 
+			.dropdown-menu>li>a:hover {
+		        background: #5391a7;
+
+		}
+	
+	/* Fondo del boton desplegable dentro del menu*/
+	.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+		background:none;
+
+	}
+
+
+
+
+	/******fin css del menú interno desplegable**************/	
+
+/******Fin css del menú**************/
+/*******************************/
+
+/*tamaño del icono*/
+.glyphicon-lg{
+	font-size:4.2em;
+}
+/*contenedor categorias y subcategorias*/
+.blockquote-box{
+	border-right:5px solid #E6E6E6;
+	margin-bottom:25px;
+	
+}
+
+/*contenedor de icono de categorias*/
+.blockquote-box .square{
+	width:130px;
+	height: 140px;
+	min-height:100px;
+	margin-right:20px;
+	text-align:center!important;
+	background-color:#E6E6E6;
+	padding:20px 0;
+	
+}
+
+/*color barra derecha catgeorias*/
+.blockquote-box.blockquote-info{
+	border-color:#46B8DA;
+}
+/*css para el color (blanco) de fuente de iconos en categorias de secciones */
+.blockquote-box.blockquote-info .square{
+	background-color:#5BC0DE;
+	color:#FFF;
+}
+
+
+.enlacessubcategorias{
+	font-size: .9em;
+}
+.enlace-categoria a{
+	color: green;
+}
+/**********************************************************************/
+/****************** CSS CONTENIDO DE LA APP **************************/
+/********************************************************************/
+.contenido{
+	/* Color de fondo -blanco- */
+	background-color:#ffffff;
+	margin-top:110px;
+	/*Tamanho minimo del contenedor*/
+	min-height: 600px;
+
+
+}
+.contenido-nav-avanzado{
+	/* Color de fondo -blanco- */
+	background-color:#ffffff;
+	margin-top:160px;
+	/*Tamanho minimo del contenedor*/
+	min-height: 600px;
+}
+
+
+.badge{
+	background-color: red;
+}
+
+
+.contenedor-interno{
+	margin-top: 10px;
+	
+	margin-bottom: 50px;
+}
+
+.subtitulo{
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+}
+.centrar-div{
+	text-align: center;
+}
+
+.espacio-inferior-mediano{
+	margin-bottom: 40px;
+}
+
+.espacio-izquierda{
+	margin-left: 20px;
+}
+
+.boton-cancelar{
+	margin-top: 20px;
+}
+.enlace{
+	font-size: 1.1em;
+	color: #5CB85C;	
+}
+
+
+	.enlace:hover{
+		text-decoration:none;   
+		color: green;	
+	}
+/**********************************************************************/
+/****************** inicio CSS perfil de user **************************/
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-genero {
+  /*text-transform: uppercase;*/
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+    
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+/*linea inferior de separación de li en el menú de perfil*/
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+/*fuente de enlaces del menu de perfil*/
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+/*separacion de enlaces y de su respectivo icono*/
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+/*hover de los enlaces dentro del menu de perfil*/
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color:#94d117;
+}
+
+/**/
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5CB85C;
+  background-color: #F8F8FF;
+  border-left: 3px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+  border: solid 1px blue;
+}
+
+#contenido-perfil .tab{
+	display: none;
+}
+
+
+/**/
+.linea-inferior{
+	/*border-bottom: 1px solid #E8E8E8;*/
+	margin-bottom: 25px;
+}
+
+.mayusculas{
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+
+.btn-new-foto-perfil{
+	margin-top: 30px;
+}
+
+.btn-espacio-superior{
+	margin-top: 10px;
+}
+
+.btn-salir{
+	margin-top: 15px;
+}
+.caja-sombra{
+	border: 2px solid #FFF8DC	;
+	 box-shadow: 1px 5px 15px #888888;
+	border-radius: 5px;
+}
+/**********************************************************************/
+/****************** FIN CSS perfil de user **************************/
+
+
+
+
+
+
+/**********************************************************************/
+/****************** FIN CSS CONTENIDO DE LA APP **************************/
+
+
+
+
+
+
+
+
+
+/**********************************************************************/
+/****************** CSS MODALES DE LA APP **************************/
+/********************************************************************/
+.modal-header-success {
+    color:#fff;
+    padding:5px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #5cb85c;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.modal-header-app {
+    color:#fff;
+    padding:5px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #27A9E1;
+
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+.modal-footer-app {
+	padding-bottom: 5px;
+	margin-top: -5px;
+
+}
+
+
+
+
+.modal-dialog {
+	
+	margin: 10em auto;
+	/*background-color: #ddd !important;*/
+}
+
+
+
+
+
+
+/**********************************************************************/
+/****************** FIN CSS modales DE LA APP **************************/
+
+
+
+
+/**********************************************************************/
+/******************INICIO REGISTRO APP **************************/
+/********************************************************************/
+
+
+.input-group-addon.primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+}
+.input-group-addon.success {
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 184, 92);
+    border-color: rgb(76, 174, 76);
+}
+.input-group-addon.info {
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 179, 215);
+    border-color: rgb(38, 154, 188);
+}
+.input-group-addon.warning {
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 173, 78);
+    border-color: rgb(238, 162, 54);
+}
+.input-group-addon.danger {
+    color: rgb(255, 255, 255);
+    background-color: rgb(217, 83, 79);
+    border-color: rgb(212, 63, 58);
+}
+
+
+
+/*estilos para el boton registro de formulario Registrar*/
+.boton-registro{
+	margin-bottom: 20px;
+}
+
+/*css para botones registro e ingreso con redes sociales*/
+.ancho-btn-social{
+	/* Ancho de los botones sociales*/
+    width:90%;
+    margin-bottom: 3px;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.icono-btn-social{ 
+	/*Icono de las redes sociales se ubique a la izquierda*/
+    float:left;
+    font-size:1.4em;
+}
+
+/*Boton conectate con facebook*/
+.btn-facebook{
+	/*Color de fondo del boton conectate con facebook -azul de facebook-*/
+    background-color: #3B5998;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+	.btn-facebook:hover{
+    	background-color: #ffffff;
+    	color: #3B5998;
+    	border: #3B5998 solid 1px;
+    	-webkit-transition: all 0.4s;
+    	-moz-transition: all 0.4s;
+    	-o-transition: all 0.4s;
+    	transition: all 0.4s;
+	}
+
+/*Boton conectate con twitter*/	
+.btn-twitter{
+	/*Color de fondo del boton conectate con twitter -celeste de twitter-*/
+    background-color: #00aced;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+	.btn-twitter:hover{
+    	background-color: #ffffff;
+    	color: #00aced;
+    	border: #00aced solid 1px;
+    	-webkit-transition: all 0.4s;
+    	-moz-transition: all 0.4s;
+    	-o-transition: all 0.4s;
+    	transition: all 0.4s;
+	}
+/*Boton conectate con google plus*/
+.btn-googleplus{
+	/*Color de fondo del boton conectate con google+ -rojo de googleplus-*/
+    background-color: #dd4b39;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}	
+	.btn-googleplus:hover{
+    	background-color: #ffffff;
+    	color: #dd4b39;
+    	border: #dd4b39 solid 1px;
+    	-webkit-transition: all 0.4s;
+    	-moz-transition: all 0.4s;
+    	-o-transition: all 0.4s;
+    	transition: all 0.4s;
+	}
+
+/**********************************************************************/
+/****************** FIN REGISTRO DE LA APP **************************/
+
+
+/**********************************************************************/
+/****************** inicio footer de la app **************************/
+.botonera-inferior{
+	position: relative;
+	background: #000000;
+	/*margin-bottom:20px;*/
+	/*margin-top: 1px;*/
+	
+	/*width: 100%;*/
+	
+}
+
+.btn-inferior-der, .btn-inferior-izq{
+	height: 50px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 10px;
+
+}
+.btn-inferior-der{
+	background: #106A9C;
+}
+.btn-inferior-izq{
+	background: #106A9C;
+	opacity: 0.9;
+	
+
+}
+.botonera-inferior a:hover .btn-inferior-izq, 
+	.botonera-inferior a:hover .btn-inferior-der{
+	background-color: #27A9E1;
+	text-decoration: none;
+	/*color: #000000;*/
+	font-weight: bold;
+
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	-o-transition: all 0.7s;
+	transition: all 0.7s;
+	
+}
+
+footer {
+  position: relative;
+  /* Altura total del footer en px con valor negativo margin-top: -40px;*/
+  /*Altura del footer en px. Se han restado los 5px del margen superior mas los 5px del margen inferior*/
+  height: 40px; 
+  padding:8px 0px;
+  clear: both;
+  opacity: 0.9;
+  background: #27A9E1;
+  text-align: center;
+  color: #ffffff;
+}
+	/*#main-menu a:hover {*/
+		/* Color de los enlaces del menu con hover -verde claro-*/
+	   /* color: 	#94d117;*/
+	    /* Color del borde inferior para los enlaces del menu -verde claro-*/
+	   /* border-bottom: solid 2px #94d117;
+	    border-top: solid 1px #94d117;
+
+	    -webkit-transition: all 0.7s;
+	    -moz-transition: all 0.7s;
+	    -o-transition: all 0.7s;
+	    transition: all 0.7s;
+	}*/
+
+/**********************************************************************/
+/****************** ADMINISTRADOR **************************/
+/*body{
+	margin-top:20px;
+}*/
+.contenedortotal-admin{
+		margin-top: 10px;
+	
+	margin-bottom: 50px;
+}
+.fa-fw {
+	width: 2em;
+}
+.seleccionado{
+  	background-color: #F8F8FF;
+  	border-left: 3px solid #5b9bd1;
+  	margin-left: -2px;
+}
+.seleccionado>a{
+	color: #5CB85C;
+	font-weight: 500;
+}
+.btn-ad>a{
+	color: #93a3b5;
+	font-weight: 400;
+
+}
+.btn-ad>a:hover{
+	 background-color: #fafcfd;
+  	color:#94d117;
+}
+.menu-admin li{
+	border-bottom: 1px solid #f0f4f7;
+}
+.menu-admin li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+#contenedor-admin{
+	/*background-color: #F8F8FF;*/
+	margin-left: -15px;
+}
+
+/****************** fin ADMINISTRADOR **************************/
+/**********************************************************************/
+
+
+
+
+/****************** fin footer de la app **************************/
+/**********************************************************************/
+
+
+
+/********************************************************************/
+/****************** INICIO VER ANUNCIOS ****************************/
+/********************************************************************/
+/*Titulo del anuncio*/
+.titulo-anuncio{
+	font-weight: 500;
+	font-size: 1.7em;
+	text-align: justify;
+	color: #27A9E1;
+}
+.breadcrumb>li>a{
+	/*background: red;*/
+	color:#27A9E1;
+}
+
+/*css del precio y estado*/
+.cuadro-precio-contenido{
+	font-size: 1.2em;
+	/*background: yellow;*/
+}
+	/*css para el precio*/
+	.cuadro-precio-contenido>span{
+		font-size: 1.3em !important;
+		
+	}
+
+.opcionvalor{    
+	border-style: solid; border-width: 0 90px 52px 0; float:right; height: 0px; width: 0px;
+	/*-ms-transform:rotate(360deg);*/ /* IE 9 */
+	/*-o-transform: rotate(360deg);*/  /* Opera 10.5 */
+	/*-webkit-transform:rotate(360deg);*/ /* Safari and Chrome */
+	/*transform:rotate(360deg);*/
+}
+/*precio fondo, borde*/
+.cuadro-precio{
+	background:#F0FFFF; border:1px solid #ddd; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); margin: 1px 0; overflow:hidden;
+}
+
+/*color del borde opcion valor*/
+.cuadro-default {	border-color: #999999; }
+
+/*color de opcion valor*/
+.cuadro-default .opcionvalor{
+	border-color: transparent #27A9E1 transparent transparent;
+}
+
+/*ubicar opcion valor en la parte superior derecha del precio, moviendo la fuente y rotando*/
+.opcionvalor-text{
+	color:#fff; font-size:14px; font-weight:bold; position:relative; right:-30px; top:-3px; white-space: nowrap;
+	-ms-transform:rotate(30deg); /* IE 9 */
+	-o-transform: rotate(360deg);  /* Opera 10.5 */
+	-webkit-transform:rotate(30deg); /* Safari and Chrome */
+	transform:rotate(30deg);
+}
+/*dar ubicación al precio*/
+.cuadro-precio-contenido{
+	padding:0 20px 0px;
+}
+
+/*margen de 1px gris para el carrusel de fotos*/
+.margen-ver-fotos{
+	border: 1px solid #C0C0C0;
+	margin-bottom: 34px;
+}
+
+/*css para los botones adelante y atras del carrusel de fotos*/
+.flex-direction-nav a{
+	height: 50px;
+}
+
+
+.btn-separado{
+	margin-bottom: 8px !important;
+}
+
+.comentarios{
+	border: 2px solid blue;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.detalleanuncio{
+	background-color: #F5F5F5;
+	border-radius: 8px;
+}
+
+
+/****************** FIN ver anuncios ****************************/
+/********************************************************************/
+
+/********************************************************************/
+/****************** inicio ver clasificados ****************************/
+/********************************************************************/
+
+
+
+
+.titulo-clasificados{
+	
+	color: #3B5998;
+	font-weight: 600;
+	margin-left: -15px;
+}
+.precio-clasificados{
+
+    background-color: rgba(39,169,225,0.3);
+    display: inline-block;
+    margin-bottom: 5px;
+    
+    padding: 5px 5px;
+    margin-top: 5px;
+    width: 150px;
+    font-size: 1.2em;
+ }
+ .precio-clasificados span{
+ 	color: #009900;
+ }
+ .opcionvalor-clasificados{
+ 	color: #0B3861;
+ 	margin-left: 15px;
+ 	font-size: .8em;
+
+ }
+
+
+
+
+/****************** FIN ver clasificados ****************************/
+/********************************************************************/
+
+
+
+
+
+
+/**********************************************************************/
+/****************** MEDIA QUERIES DE LA APP **************************/
+/********************************************************************/
+@media(max-width:992px){
+	
+}
+
+/*Extra small devices Phones (<=767px)*/
+@media (max-width: 767px) {
+	/*COLOR BODY BORRAR DESPUES SOLO ES INFORMATIVO*/
+	body{
+		/*background-color:orange;		*/
+	}
+	/*Css para centrar un objeto, se aplica al contenedor que contiene al objeto a centar*/
+	.centrar{
+    	text-align: center;
+	}
+	/*Css para centrar un objeto, se aplica al objeto a centrar*/
+	.centrar>p{
+		float:none;
+	    
+	    display: inline-block;  
+	}
+	/*Quitar padding y margen al conteneder de los botones superiores de ingreso y registro */
+	.botonera-superior{
+		padding:0 0; 
+		margin-top: 0;
+		margin-bottom: -7px;
+
+	}
+	.boton-registro{
+		color: #ffffff;
+		background-color: #27A9E1;
+		border: none;
+	}
+	div.row.menu-inferior{
+		margin-top: -10px;
+	}
+	/*Margen superior al contenedor interno*/
+	.contenedor-interno{
+		margin-top: 110px;
+		
+	}
+	.contenedortotal-admin{
+		margin-top: 70px;
+		
+	}
+	
+
+
+
+	/*Permite dar apariencia de tabla de datos generales en perfil*/
+	.linea-inferior{
+		border-bottom: 1px solid #E8E8E8;
+		margin-bottom: 0px;
+	}
+
+	/*titulo de ver anuncio*/
+	.titulo-anuncio{
+		font-weight: 500;
+		font-size: 1.4em;
+		text-align: justify;
+		color: #27A9E1;
+	}
+	/*migas de pan en ver anuncio*/
+	.breadcrumb>li>a{
+		font-size: 0.9em;
+	}
+	.cuadro-precio-contenido{
+		font-size: 1em;
+		
+	}
+
+
+	/*tamaño del icono*/
+	.glyphicon-lg{
+		font-size:2em;
+	}
+	/*contenedor categorias y subcategorias*/
+	.blockquote-box{
+		border-right:5px solid #E6E6E6;
+		margin-bottom:25px;
+		
+	}
+
+	/*contenedor de icono de categorias*/
+	.blockquote-box .square{
+		width:80px;
+		height: 80px;
+		min-height:80px;
+		margin-right:20px;
+		text-align:center!important;
+		background-color:#E6E6E6;
+		padding:20px 0;
+		
+	}
+
+
+
+}
+
+@media (max-width: 400px) {
+
+	/*ocultar subcategoris en dispositivos de <360*/
+	.enlacessubcategorias{
+		display: none;
+	}
+
+	.enlace-categoria a{
+		font-size: .8em;
+	}
+	/*tamaño del icono*/
+	.glyphicon-lg{
+		font-size:1.3em;
+
+	}
+	.square span{
+		margin-top: 0;
+		margin: auto 0;
+	}
+	/*contenedor categorias y subcategorias*/
+	.blockquote-box{
+		border-right:5px solid #E6E6E6;
+		
+		
+	}
+
+	/*contenedor de icono de categorias*/
+	.blockquote-box .square{
+		width:40px;
+		height: 30px;
+		min-height:40px;
+		margin-right:5px;
+		/*text-align:center!important;*/
+		background-color:#E6E6E6;
+		padding-top: 8px;
+		/*padding:20px 0;*/
+		/*border: 1px solid red;*/
+	}
+
+
+
+
+}
+
+
+
+@media (max-width: 360px) {
+
+	.caja-derecha{
+		display: inline-block;
+		float: none;
+		width: 100%;
+	}
+
+	/*ocultar subcategoris en dispositivos de <360*/
+	.enlacessubcategorias{
+		display: none;
+	}
+}
+
+/*Extra small devices Phones (<500px)*/
+/*@media (max-width: 500px) {
+	body{
+		background-color:red;		
+	}
+	
+		
+}*/
+/****************** FIN DE MEDIA QUERIES ****************************/
+/********************************************************************/

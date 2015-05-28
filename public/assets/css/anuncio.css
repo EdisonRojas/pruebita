@@ -1,0 +1,366 @@
+/***********************************************/
+/*********MIS ANUNCIOS*******************/
+.cuadroproducto {
+	padding:10px;
+	border-left: 3px solid #27A9E1;
+	/*background-color: yellow;*/
+	margin-bottom:10px;
+	-webkit-box-shadow: 0 8px 6px -6px  #999;
+	   -moz-box-shadow: 0 8px 6px -6px  #999;
+	        box-shadow: 0 8px 6px -6px #999;
+}
+
+.fechas-anuncio{
+	font-size: 0.9em;
+	color: #696969;
+}
+
+.fechas-anuncio span{
+	font-weight: 600;
+}
+
+.botones-misanuncios{
+	margin-bottom: 5px;
+}
+
+
+.cuadroproducto:hover {
+	 background-color: #F0F8FF;
+	 /*cursor:pointer;*/
+}
+.producttitle {
+    font-weight:bold;
+	/*padding:5px 0 5px 0;*/
+}
+.precio{
+
+    background-color: rgba(39,169,225,0.58);
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #000000;
+    padding: 10px 15px;
+    margin-top: 5px;
+    width: 180px;
+   
+
+}
+.btn-publicacion{
+	background-color: orange;
+	color: #ffffff;
+}
+	.btn-publicacion:hover{
+		background-color: #FFCC00;
+		color: #ffffff;
+		font-weight: bold;
+	}
+.btn-desactivar{
+	background-color: red;
+	color: #ffffff;
+}
+
+.parrafo-mensaje{
+	text-align: justify;
+}
+
+.btn-oculto{
+	visibility:  hidden;
+	display: block;
+}
+.label-bloqueado{
+	background-color: #D3D3D3;
+}
+
+.label-revision{
+	background-color: #D2691E;
+}
+.label-denunciado{
+	background-color: #CC3333;
+}
+
+/***********************************************/
+/*********INICIO CREAR ANUNCIO*******************/
+
+.cabeza{
+	/*border: 1px solid red;*/
+	margin-top: 0;
+}
+
+/*css botones de la botonera de crear anuncio*/
+.btnseccion{
+		background:#ffffff ;
+		color:#1e90ff;
+		border: 1px #1e90ff solid;
+		margin-bottom: 2px;
+		font-size: 1.1em;	
+}
+
+/*css de la parte derecha de crear anuncio*/
+.subcuerpo-derecha{
+	padding-left: 120px;
+	
+	/*border-left: 1px solid #e5e5e5;*/
+}
+
+#telefono_contenedor{
+	display: none;
+}
+/*css información adicional al pie de inputs en crear anuncio*/
+.informacion-adicional{
+	color:#337AB7;
+	font-size: 0.9em;
+}
+
+.contenedor-crear-anuncio{
+	margin-top: 8px;
+}
+
+#categoria{
+	font-size: 1.1em !important;
+	
+}
+#subcategoria{
+	font-size: 1.1em !important;
+	
+}
+
+/*inicio mensaje de categoria y seccion elegida*/
+.alert-message
+{
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 3px solid #eee;
+}
+
+.alert-message-info
+{
+    background-color: #f4f8fa;
+    border-color: #5bc0de;
+}
+.alert-message-info h4
+{
+    color: #27A9E1;
+}
+/*fin mensaje de categoria elegida*/
+@media(max-width:992px){
+	.subcuerpo-derecha{
+		padding-left: 15px;
+		border-left: 0;
+	 }
+
+}
+@media (max-width: 767px) {
+
+	.btnseccion{
+		background:#ffffff ;
+		
+		font-size: 1em;	
+		
+		
+		border-radius: 5px !important; 
+		margin-bottom: 3px;
+		
+		/*Colocar los botones uno debajo de otro*/
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	.subcuerpo-derecha{
+		/*background:orange ;*/
+		padding-left: 15px;
+		/*height: 500px;*/
+		border-left: 0;
+	}
+}
+
+/*******************FIN CREAR ANUNCIO********/
+/*******************************************/
+
+/***********************************************/
+/*********inicio mostrar vista simple anuncio*******************/
+
+
+
+
+
+
+
+
+
+/*****css para comenatarios*************/
+.chat, .respuestas
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li 
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #27A9E1;
+}
+
+.respuestas li{
+	margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+
+.chat li.left .chat-body
+{
+    margin-left: 50px;
+}
+.respuestas li.left .chat-respuesta{
+	margin-left: 40px;	
+	
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+/*color de la fuente de comentarios*/
+.chat li .chat-body p
+
+{
+    margin: 0;
+    color: #111111;
+    font-size: 1em;
+}
+.respuestas li .chat-respuesta p{
+	margin: 0;
+    color: #444444;
+    /*font-size: 0.9em;*/
+}
+
+.cajita-respuesta{
+	margin-left: -15px;
+	margin-right: -15px;
+	
+}
+
+#img-cargando{
+	/*display: none;*/
+	text-align: center;
+	display: none;
+}
+	#img-cargando img{
+		float:none;
+	    
+	    display: inline-block;  
+	}
+.img-comentario{
+	height: 40px;
+	width: 40px;
+}
+.img-respuesta{
+	height: 30px;
+	width: 30px;
+}
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 15px;
+}
+
+.panel-body
+{
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.fuente-nombrecomentario{
+	/*color: #27A9E1;*/
+	font-size: 0.9em;
+}
+
+
+/*::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}*/
+
+
+
+/*fin css comentarios*/
+
+/*editar clasificado*/
+.fotos-edicion{
+	width: 80px;
+	height: 80px;
+	margin-left: 40px;
+	font-size: 70px;
+	border: 3px solid #DCDCDC;
+}
+	.fotos-edicion span{
+		margin-left: 2px;
+		color: #DCDCDC;
+	}
+.fotoedicion{
+	width: 90% !important;
+}
+
+	
+/*******************FIN vista simple de ANUNCIO********/
+/*******************************************/
+
+
+/**Aqui va sobre comentarios*/
+#enviarcomentario{
+	margin-top: 2px;
+	float: right;
+}
+
+
+
+
+#comentar{
+	margin-top: 25px;
+}
+
+.cajaresponder{
+	display: none;
+}
+.ocultisimo{
+	display: none;	
+}
+.caja-respuestas{
+	margin-top: 5px;
+}
+/**/
+
+
+/*media queries para crear anuncio*/
+@media (max-width: 600px) {
+	/*crear anuncio, cambiar el modo de los botones para elegir seccion*/
+	.botonerasecciones{
+		width: 100%;
+	}
+}
+
+@media (max-width: 380px) {
+
+	.caja-derecha-misanuncios{
+		display: inline-block;
+		float: none;
+		width: 100%;
+	}
+	.fotoedicion{
+		width: 100% !important;
+	}
+}

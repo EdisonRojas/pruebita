@@ -1,0 +1,100 @@
+.raya{
+	height: 460px !important;
+}
+
+.general-uno{
+	background-color: yellow;
+}
+	.general-anuncios .btn, 
+		.general-usuarios .btn{
+			margin-bottom: 20px;
+			min-height: 100px;
+			color: #ffffff;
+	}
+
+	.general-anuncios .btn span, 
+		.general-usuarios .btn span{
+			display: block;
+	}		
+
+
+.subtitulos-caja{
+	margin-top: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.btn-admin-revision{
+	background-color: #D2691E;
+}
+.btn-admin-comentario-denunciado{
+	background-color: #FA8072;
+}
+.btn-admin-denunciado{
+	background-color: #CC3333;
+}
+
+#btn-bloquear-anuncio{
+	/*margin-top: 20px;*/
+	margin-bottom: 10px;
+}
+.botonera-revision{
+	margin-top: 30px;
+}
+
+.mensaje-noleido{
+	background-color: #CEF6CE;
+	font-weight: 500;
+	color: #27A9E1;
+}
+	.mensaje-noleido a{
+		color: #27A9E1;
+		font-weight: 700;
+	}
+		.mensaje-noleido a span{
+		color: white;
+		font-weight: 500;
+	}
+
+.contenedor-botonbloqueo{
+	margin-top: 20px;
+}
+
+
+.mensaje-leido{
+	color: #848484;
+}
+	.mensaje-leido a{
+		color: #848484;
+	}
+		.mensaje-leido a span{
+			color: #ffffff;
+			
+		}
+
+.cuadro-mensaje{
+	padding: 10px;
+	background-color:#E6E6E6;
+	border-radius: 10px; 
+}
+
+/*table>tbody>tr>td{
+
+	background-color: #F0FFFF;
+}*/
+
+	/*.table>tbody>tr>td:hover{
+
+		background-color: yellow !important;
+	}*/
+/*.table>thead>tr{
+
+	background-color: #27A9E1 !important;
+}*/
+
+@media (max-width: 300px) {
+	.general-anuncios .btn, 
+		.general-usuarios .btn{
+			font-size: 1em;
+	}
+}
